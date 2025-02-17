@@ -1,5 +1,6 @@
 class Solution {
     public void nextPermutation(int[] nums) {
+        //Belive it NARUTO
         int n = nums.length;
         int pivot  = -1;
         for(int i=n-2;i>=0;i--){
