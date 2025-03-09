@@ -5,7 +5,7 @@ class Solution {
             if((i%3==0) && (i%5==0)){
                 mouli.add("FizzBuzz");
             }else if((i%3==0)){
-                mouli.add("Fizz");
+                mouli.add("Fizz");  //mouli
             }else if((i%5==0)){
                 mouli.add("Buzz");
             }else{
