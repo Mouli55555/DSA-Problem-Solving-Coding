@@ -13,8 +13,6 @@ class Solution {
             dp[j] = nums[i]+max;
             j++;
         }
-        System.out.println(Arrays.toString(dp));
-        System.out.println(dp[len-1]+" "+dp[len-2]);
         return Math.max(dp[len-1], dp[len-2]);
     }
     public int rob(int[] nums) {
